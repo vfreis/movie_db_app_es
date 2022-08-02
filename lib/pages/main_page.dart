@@ -156,7 +156,7 @@ class MainPage extends ConsumerWidget {
             hintStyle: TextStyle(color: Colors.white54),
             filled: false,
             fillColor: Colors.white24,
-            hintText: 'Search....'),
+            hintText: 'Busca'),
       ),
     );
   }
