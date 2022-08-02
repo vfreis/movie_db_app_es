@@ -2,8 +2,8 @@
 import 'dart:async';
 
 import '../models/search_category.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:get_it/get_it.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart'; //gerencia estados
+import 'package:get_it/get_it.dart'; //
 
 //Models
 import '../models/main_page_data.dart';
