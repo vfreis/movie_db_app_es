@@ -15,6 +15,9 @@ class Movie {
   final String? backdropPath;
   final num? rating;
   final String? releaseDate;
+  
+    //The instance member 'releaseDate' can't be accessed in an initializer.
+  // DateTime lancamento = DateTime.parse(releaseDate!);
 
   Movie(
       {this.name,
