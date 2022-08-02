@@ -78,9 +78,9 @@ class MovieTile extends StatelessWidget {
             padding: EdgeInsets.fromLTRB(0, height! * 0.07, 0, 0),
             child: Text(
               movie!.description!,
-              maxLines: 9,
+              maxLines: 8,
               overflow: TextOverflow.ellipsis,
-              style: TextStyle(color: Colors.white70, fontSize: 10),
+              style: TextStyle(color: Colors.white70, fontSize: 8.5), //mais que isso overflow
             ),
           ),
         ],
