@@ -1,6 +1,6 @@
 //Packages
 import 'package:get_it/get_it.dart';
-import 'package:dio/dio.dart';
+import 'package:dio/dio.dart'; //http 
 
 //Services
 import '../services/http_service.dart';
@@ -28,7 +28,7 @@ class MovieService {
       }).toList();
       return _movies;
     } else {
-      throw Exception('Couldn\'t load popular movies.');
+      throw Exception('Não foi possivel carregar.');
     }
   }
 
@@ -43,7 +43,7 @@ class MovieService {
       }).toList();
       return _movies;
     } else {
-      throw Exception('Couldn\'t load upcoming movies.');
+      throw Exception('Não foi possivel carregar.');
     }
   }
 
@@ -59,7 +59,7 @@ class MovieService {
       }).toList();
       return _movies;
     } else {
-      throw Exception('Couldn\'t perform movies search.');
+      throw Exception('Não foi possivel realizar a busca..');
     }
   }
 }
